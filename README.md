@@ -22,7 +22,7 @@ You can select the DOTNB package with you preferred programming language. The co
 
 The DOTNB is performaed by several programming languages. In each folder, there are seveal functions to test.
 
-# Example
+# Examples
 
 Here is an example to use these functions.
 
