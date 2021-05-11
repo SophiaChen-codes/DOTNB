@@ -4,3 +4,9 @@ the Difference Of Two Negative Binomial of DOTNB distribution (DOTNB).
 pdf: Probability Density Function
 
 cdf: Cumulative Density Function
+
+## Install the DNTNB package
+```
+install.packages("devtools")
+devtools::install_github("chenyongrowan/DOTNB/DOTNB_R")
+```
