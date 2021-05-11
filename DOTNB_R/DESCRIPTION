@@ -1,0 +1,16 @@
+Package: DOTNB
+Type: Package
+Title:  Difference Of Two Negative Binomial distributions
+Version: 0.1.1
+Author: Yong Chen, Shaoqiang Zhang
+Maintainer: Shaoqiang Zhang <sqzhang@163.com>
+Description: DOTNB includes the R Code function files to calculate the pdf,
+cdf, mean, variance and simulation for the variable generated from the Difference 
+Of Two Negative Binomial distributions (DOTNB). 
+pdf: Probability Density Function 
+cdf: Cumulative Density Function.
+License: MIT License
+Encoding: UTF-8
+LazyData: true
+NeedsCompilation: no
+Packaged: 2021-05-11 09:02:03 UTC; dell
