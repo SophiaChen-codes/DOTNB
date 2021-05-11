@@ -23,7 +23,7 @@ DOTNB_mean<-function(r1,p1,r2,p2){
   q1 = 1-p1
   q2 = 1-p2
   dmean = ((r1*q1)/p1) - (r2*q2/p2)
-  return(ceiling(dmean))
+  return(dmean)
 }
 
 DOTNB_var<-function(r1,p1,r2,p2){
