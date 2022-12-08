@@ -19,11 +19,11 @@ to download the package of DOTNB.
 You can select the DOTNB package with you preferred programming language. The compiling and requirements details are following.
 
 
-# Instructions
+## Instructions
 
 The DOTNB is performaed by several programming languages. In each folder, the functions of PDF, CDF, mean and variance are provided.
 
-# Examples
+## Examples
 
 In each language, an example is shown how use these functions.
 
