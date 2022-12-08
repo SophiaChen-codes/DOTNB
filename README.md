@@ -21,9 +21,9 @@ You can select the DOTNB package with you preferred programming language. The co
 
 # Instructions
 
-The DOTNB is performaed by several programming languages. In each folder, there are seveal functions to test.
+The DOTNB is performaed by several programming languages. In each folder, the functions of PDF, CDF, mean and variance are provided.
 
 # Examples
 
-Here is an example to use these functions.
+In each language, an example is shown how use these functions.
 
