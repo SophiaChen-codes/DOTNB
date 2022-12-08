@@ -5,7 +5,8 @@ We hope these code files can help users to use DOTNB in their own models/methods
 
 # Citation
 If you use the code and DOTNB distribution, please cite the following paper:
-!!!
+
+Petrany A., Zhang S. and Chen, Y. DEGage: a General Model-based Method for Detecting Differentially Expressed Genes from scRNA-seq Data. To be submitted.
 
 # Download
 ## Github
