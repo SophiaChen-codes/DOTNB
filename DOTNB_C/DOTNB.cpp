@@ -36,6 +36,7 @@ double DOTNB_pdf(int r1, double p1, int r2, double p2, int dn )
 
 //======================================================================
 
+// Here is an example to calculate the DOTNB_pdf(r1=2,p1=0.58,r2=3,p2=0.3,k=10)
 int main()
 {
    int r1=2, r2=3,k=10;
