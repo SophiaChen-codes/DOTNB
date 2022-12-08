@@ -5,6 +5,8 @@ PDF: Probability Density Function
 
 CDF: Cumulative Density Function
 
+An example is given in test.R
+
 ## Install the DNTNB package
 ```
 install.packages("devtools")
