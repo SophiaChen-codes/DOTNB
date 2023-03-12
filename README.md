@@ -25,5 +25,5 @@ The DOTNB is performaed by several programming languages. In each folder, the fu
 
 ## Examples
 
-In each language, an example is shown how use these functions.
+In DOTNB_Matlab sudbfolder, examples are shown how use these functions.
 
