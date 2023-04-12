@@ -2,6 +2,7 @@ function pvalue=DOTNB_pdf(k,r1,p1,r2,p2)
 
 % calculate the p-value of two different NB distributions (r1,p1) and (r2,p2)
 % k is the observed number of difference
+%%% Written by Ruoyu Chen
 
 q1 = 1-p1; q2 = 1-p2;
 
