@@ -4,6 +4,7 @@ import scipy.special import gamma, factorial, hyp2f1
 
 """
 This script provides DTONB functions of PDF, mean and variance
+Written by Ruoyu Chen
 """
 
 
