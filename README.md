@@ -1,7 +1,8 @@
 # DOTNB distribution: the Difference Of Two Negative Binomial distributions.
-The DOTNB repository is a collection of code files that implement DOTNB across several programming languages.
-The DOTNB is a distribution for Difference Of Two Negative Binomial distributions, NB(r1,p1) and NB(r2,p2).
-We hope these code files can help users to implement DOTNB in their own models/methods.  
+The DOTNB repository is a collection of code files that implement DOTNB across several programming languages.  
+The DOTNB is a distribution for Difference Of Two Negative Binomial distributions, NB(r1,p1) and NB(r2,p2).  
+We hope these code files can help users to implement DOTNB in their own models/methods.    
+
 Please note that a more robust implementation is availble for NGS data analysis at: 
 
 # Citation
