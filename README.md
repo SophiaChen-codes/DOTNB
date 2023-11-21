@@ -3,7 +3,7 @@ The DOTNB repository is a collection of code files that implement DOTNB across s
 The DOTNB is a distribution for Difference Of Two Negative Binomial distributions, NB(r1,p1) and NB(r2,p2).  
 We hope these code files can help users to implement DOTNB in their own models/methods.    
 
-Please note that a more robust implementation is availble for NGS data analysis at: 
+Please note that a more robust implementation in R is availble for NGS data analysis at: 
 
 # Citation
 If you use the code and/or the DOTNB distribution, please cite the following paper:
@@ -18,14 +18,11 @@ Run the following code in a terminal to retreive the DOTNB files, or download th
   ```
 
 # Requirements
-You can select the DOTNB package with you preferred programming language. The compiling and requirements details are following.
+Requirements differ between language. See the README files under each language for more details.
 
 
 ## Instructions
 
-The DOTNB is performaed by several programming languages. In each folder, the functions of PDF, CDF, mean and variance are provided.
+In the folder of each language, the mean, variance, CDF, and PDF functions of DOTNB are provided. Examples of how to use these functions are also provided
 
-## Examples
-
-In DOTNB_Matlab sudbfolder, examples are shown how use these functions.
 
