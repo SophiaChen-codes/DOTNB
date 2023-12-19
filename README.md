@@ -4,6 +4,7 @@ The DOTNB is a distribution for Difference Of Two Negative Binomial distribution
 We hope these code files can help users to implement DOTNB in their own models/methods.    
 
 Please note that a more robust implementation in R is availble for NGS data analysis at: 
+https://github.com/chenyongrowan/DEGage.git
 
 # Citation
 If you use the code and/or the DOTNB distribution, please cite the following paper:
