@@ -23,6 +23,6 @@ Requirements differ between language. See the README files under each language f
 
 ## Instructions
 
-In the folder of each language, the mean, variance, CDF, and PDF functions of DOTNB are provided. Examples of how to use these functions are also provided
+In the folder of each language, the mean, variance, CDF, and PDF functions of DOTNB are provided.
 
 
