@@ -7,7 +7,7 @@ https://github.com/chenyongrowan/DEGage.git
 # Citation
 If you use the code and/or the DOTNB distribution, please cite the following paper:
 
-Petrany A., Chen R., Zhang S. and Chen, Y. "Theoretical Framework of the Difference of Two Negative Binomial Distributions and its Application in Comparative Analysis of Sequencing Data". Genome Research, Under Review.
+Petrany A., Chen R., Zhang S. and Chen, Y. "Theoretical Framework for the Difference of Two Negative Binomial Distributions and its Application in Comparative Analysis of Sequencing Data". Genome Research, Under Review.
 
 # Download
 ## Github
