@@ -1,4 +1,4 @@
-# DOTNB distribution: the Difference Of Two Negative Binomial distributions.
+# DOTNB Distribution: the Difference Of Two Negative Binomial Distributions.
 The DOTNB repository is a collection of code files that implement DOTNB across several programming languages. The DOTNB is the distribution for the Difference Of Two Negative Binomial distributions, i.e., Z=X-Y ~ DOTNB (λ_1,λ_2,p_1,p_2), where X ~ NB(λ_1,p_1 ) and Y ~ NB(λ_2,p_2 ). We aim for these code files to assist users in implementing DOTNB in their own models and methods.   
 
 As a state-of-the-art application of DOTNB, we have introduced DEGage, a computational method for detecting differentially expressed genes (DEGs) in scRNA-seq data. We believe DOTNB has extensive applicability not only in comparative analysis of NGS data but also in other overdispersed count data in STEM fields.. 
