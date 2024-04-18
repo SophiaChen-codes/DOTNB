@@ -27,6 +27,8 @@ sub Gamma { #gamma function using lanczos method
     }
 } 
 
+sub isinf { $_[0]==9**9**9 || $_[0]==-9**9**9 }
+
 sub Hypergeom {
 ## hypergeometric function
     my $a=shift;
@@ -65,9 +67,51 @@ sub DOTNB_pdf{
     $prob;
 }
 
-#test
-my $r1=2; my $p1=0.58; my $r2=3; my $p2=0.3,my $k=10;
-print "DOTNB_pdf($r1, $p1, $r2, $p2, $k)=", DOTNB_pdf($r1,$p1,$r2,$p2,$k), "\n";
+sub DOTNB_mean{
+  # calculate the mean of the difference of two NB distributions (r1,p1) and (r2,p2)
+	my $r1=shift;   my $p1=shift;
+    my $r2=shift;   my $p2=shift;
+	my $q1=1-$p1;   my $q2=1-$p2;
+	my $dmean=(($r1*$q1)/$p1) - ($r2*$q2/$p2);
+	$dmean;
+}
 
+sub DOTNB_var{
+  # calculate the variance of the difference of two NB distributions (r1,p1) and (r2,p2)
+    my $r1=shift;   my $p1=shift;
+    my $r2=shift;   my $p2=shift;
+    my $q1 = 1-$p1;
+    my $q2 = 1-$p2;
+    my $dvar = ($r1*$q1)/($p1^2) + ($r2*$q2)/($p2^2);
+    $dvar;
+}
+
+sub DOTNB_cdf{
+  # calculate the cumulative probability of dn that is the difference of two NB distributions (r1,p1) and (r2,p2)
+  # dn is the observed number of difference
+  # sum pvalue for <= dn, 
+	my $r1=shift;   my $p1=shift;
+    my $r2=shift;   my $p2=shift;
+    my $dn=shift; 
+	my $cvalue=0;
+	my $pdfv=DOTNB_pdf($r1,$p1,$r2,$p2,$dn);
+	if(isinf($pdfv)) {
+		if ($dn > DOTNB_mean($r1,$p1,$r2,$p2)){
+			$cvalue=1;
+		}
+	}else{
+		while(not isinf($pdfv)){
+			$cvalue=$cvalue+$pdfv;
+			$dn=$dn-1;
+			$pdfv=DOTNB_pdf($r1,$p1,$r2,$p2,$dn);
+		}
+	}
+	$cvalue;
+}
+
+#test
+my $r1=2; my $p1=0.58; my $r2=3; my $p2=0.3,my $k=100;
+print "DOTNB_pdf(r1=$r1, p1=$p1, r2=$r2, p2=$p2, dn=$k)=", DOTNB_pdf($r1,$p1,$r2,$p2,$k), "\n";
+print "DOTNB_cdf(r1=$r1, p1=$p1, r2=$r2, p2=$p2, dn=$k)=", DOTNB_cdf($r1,$p1,$r2,$p2,$k), "\n";
 
 
