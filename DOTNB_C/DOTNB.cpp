@@ -88,10 +88,11 @@ double DOTNB_cdf(int r1, double p1, int r2, double p2, int dn, int maxiter){
 
 //======================================================================
 
-// Here is an example to calculate the DOTNB_pdf(r1=2,p1=0.58,r2=3,p2=0.3,k=10)
+// Here is an example to calculate the DOTNB_pdf(r1=2,p1=0.58,r2=3,p2=0.3,k=100)
 int main()
 {
-   int r1=2, r2=3,k=10;
+   int r1=2, r2=3,k=100;
    double p1=0.58,p2=0.3;
-   cout<<"The probability of the number "<<k<< " of difference occurring is "<< DOTNB_pdf(r1,p1,r2,p2,k)<<"\n";
+   cout<<"DOTNB_pdf(r1=2,p1=0.58,r2=3,p2=0.3,k=100)="<< DOTNB_pdf(r1,p1,r2,p2,k)<<"\n";
+   cout<< "DOTNB_cdf(r1=2,p1=0.58,r2=3,p2=0.3,k=5, maxiter=100)="<<DOTNB_cdf(r1,p1,r2,p2,5,100)<<"\n";
 }
