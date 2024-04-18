@@ -2,5 +2,5 @@ This file contains the probability family functions for DOTNB implemented as an 
 copy and paste the following lines into your R terminal. 
 ```
 install.packages("devtools")
-devtools::install_github("chenyongrowan/DOTNB/DOTNB_R")
+devtools::install_github("chenyongrowan/DOTNB/DOTNBR")
 ```
